@@ -1,0 +1,22 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# 运行时数据（SQLite）
+data/
+*.db
+
+# 本地环境
+.env
+.DS_Store
+
+# 测试临时库
+data/*.db-wal
+data/*.db-shm
